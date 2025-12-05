@@ -22,6 +22,31 @@ namespace WpfAppDemo
         public BindingDemo()
         {
             InitializeComponent();
+            //this.DataContext = new BindingDemoTest() { Name = "Hello WPF Binding!" };
+            this.DataContext = new BindingDemoViewModel();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("点击了按钮");
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        //private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        //{
+        //    textbox1.Text = slider.Value.ToString();
+        //    textbox2.Text = slider.Value.ToString();
+        //    textbox3.Text = slider.Value.ToString();
+        //}
+
+        //private void textbox1_TextChanged(object sender, TextChangedEventArgs e)
+        //{
+        //    if (double.TryParse(textbox1.Text, out double value))
+        //        slider.Value = value;
+        //}
     }
 }

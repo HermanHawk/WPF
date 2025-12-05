@@ -7,6 +7,26 @@
         mc:Ignorable="d"
         Title="BindingDemo" Height="450" Width="800">
     <Grid>
-        
+        <!--控件与控件
+        控件与业务代码的属性等建立绑定关系-->
+        <StackPanel>
+            <!--<Slider x:Name="slider" Margin="5" ValueChanged="Slider_ValueChanged"/>
+            <TextBox x:Name="textbox1" Margin="5" Height="30" TextChanged="textbox1_TextChanged"/>-->
+            <Slider x:Name="slider" Margin="5" />
+            <!--<TextBox x:Name="textbox1" Margin="5" Height="30"/>
+            <TextBox x:Name="textbox2" Margin="5" Height="30"/>
+            <TextBox x:Name="textbox3" Margin="5" Height="30"/>-->
+            
+            <!--下面的绑定模式依次是 默认 单次 单向 单向反向 双向-->
+            <TextBox Text="{Binding ElementName=slider,Path=Value,Mode=Default}" Margin="5" Height="30"/>     
+            <TextBox Text="{Binding ElementName=slider,Path=Value,Mode=OneTime}" Margin="5" Height="30"/>
+            <TextBox Text="{Binding ElementName=slider,Path=Value,Mode=OneWay}" Margin="5" Height="30"/>
+            <TextBox Text="{Binding ElementName=slider,Path=Value,Mode=OneWayToSource}" Margin="5" Height="30"/>
+            <TextBox Text="{Binding ElementName=slider,Path=Value,Mode=TwoWay}" Margin="5" Height="30"/>
+            <!--<TextBox Text="{Binding Name}" Margin="5" Height="30"/>-->
+            <Button Content="Change Name" Margin="5" Height="30" Click="Button_Click"/>
+            <Button Content="test" Margin="5" Height="30" Click="Button_Click_1"/>
+            <Button Content="command" Margin="5" Height="30" Command="{Binding BindingDemoMyCommand}"/>
+        </StackPanel>
     </Grid>
 </Window>
