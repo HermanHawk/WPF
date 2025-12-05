@@ -5,7 +5,7 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppDemo", "WpfAppDemo\WpfAppDemo.csproj", "{8822BA22-14F9-4B44-A54A-2968C2009E61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppMNNMDemo", "..\WpfAppMNNMDemo\WpfAppMNNMDemo.csproj", "{AFD9CA47-9575-462D-84EB-F866DCF9512F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppMNNMDemo", "WpfAppMNNMDemo\WpfAppMNNMDemo.csproj", "{AFD9CA47-9575-462D-84EB-F866DCF9512F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
