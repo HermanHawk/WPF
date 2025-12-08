@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GalaSoft.MvvmLight.Messaging;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfAppMNNMDemo
+namespace WpfAppMvvmLightDemo
 {
     /// <summary>
     /// MainWindow.xaml 的交互逻辑
@@ -24,6 +25,11 @@ namespace WpfAppMNNMDemo
         {
             InitializeComponent();
             this.DataContext = new MainViewModel();
+            Messenger.Default.Register<string>(this, "ReciveMessageAddress", Show);
+             void Show(string text)
+            {
+                MessageBox.Show(text);
+            }
         }
     }
 }

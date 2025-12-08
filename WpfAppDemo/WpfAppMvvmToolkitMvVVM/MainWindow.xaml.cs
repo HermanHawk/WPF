@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CommunityToolkit.Mvvm.Messaging;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,8 +13,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using static System.Net.Mime.MediaTypeNames;
 
-namespace WpfAppMNNMDemo
+namespace WpfAppMvvmToolkitMvVVM
 {
     /// <summary>
     /// MainWindow.xaml 的交互逻辑
@@ -24,6 +26,9 @@ namespace WpfAppMNNMDemo
         {
             InitializeComponent();
             this.DataContext = new MainViewModel();
+            WeakReferenceMessenger.Default.Register<string,string>(this, "ReciveMessageAddress", (s, e) => {
+                MessageBox.Show(e);
+            });
         }
     }
 }

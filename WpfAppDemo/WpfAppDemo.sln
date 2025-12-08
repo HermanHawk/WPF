@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppDemo", "WpfAppDemo\Wp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppMNNMDemo", "WpfAppMNNMDemo\WpfAppMNNMDemo.csproj", "{AFD9CA47-9575-462D-84EB-F866DCF9512F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppMvvmLightDemo", "WpfAppMvvmLightDemo\WpfAppMvvmLightDemo.csproj", "{E7CCCEA4-B317-4BDA-84E6-1251AEA6D2FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppMvvmToolkitMvVVM", "WpfAppMvvmToolkitMvVVM\WpfAppMvvmToolkitMvVVM.csproj", "{C19F178E-FB73-475E-B52E-EB6181EC084C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{AFD9CA47-9575-462D-84EB-F866DCF9512F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFD9CA47-9575-462D-84EB-F866DCF9512F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFD9CA47-9575-462D-84EB-F866DCF9512F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7CCCEA4-B317-4BDA-84E6-1251AEA6D2FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7CCCEA4-B317-4BDA-84E6-1251AEA6D2FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7CCCEA4-B317-4BDA-84E6-1251AEA6D2FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7CCCEA4-B317-4BDA-84E6-1251AEA6D2FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C19F178E-FB73-475E-B52E-EB6181EC084C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C19F178E-FB73-475E-B52E-EB6181EC084C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C19F178E-FB73-475E-B52E-EB6181EC084C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C19F178E-FB73-475E-B52E-EB6181EC084C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

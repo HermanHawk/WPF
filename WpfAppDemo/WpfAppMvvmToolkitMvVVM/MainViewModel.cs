@@ -1,17 +1,19 @@
-﻿using System.ComponentModel;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
+using CommunityToolkit.Mvvm.Messaging;
+using System.ComponentModel;
 using System.Windows;
 
-namespace WpfAppMNNMDemo
+namespace WpfAppMvvmToolkitMvVVM
 {
-    //public class ViewModel:INotifyPropertyChanged
-    public class MainViewModel : ViewModelBase
+    public class MainViewModel : ObservableObject
     {
         public MainViewModel()
         {
-            MyCommand = new MyCommand(Show);
             Name = "Hello World";
+            ShowCommand = new RelayCommand<string>(Show);
         }
-        public MyCommand MyCommand { get; set; }
+        public RelayCommand<string> ShowCommand { get;}
         private string name;
         public string Name
         {
@@ -19,8 +21,6 @@ namespace WpfAppMNNMDemo
             set
             {
                 name = value;
-                //PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("Name"));
-                //OnPropertyChanged("Name");
                 OnPropertyChanged();
             }
         }
@@ -35,13 +35,11 @@ namespace WpfAppMNNMDemo
             }
         }
 
-        //public event PropertyChangedEventHandler PropertyChanged;
-
-        public void Show()
+        public void Show(string text)
         {
             Name = "this is viewModel!";
             Title = "I am title";
-            MessageBox.Show(Name);
+            WeakReferenceMessenger.Default.Send(text, "ReciveMessageAddress");
         }
     }
 }

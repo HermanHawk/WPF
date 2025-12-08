@@ -1,17 +1,19 @@
-﻿using System.ComponentModel;
+﻿using GalaSoft.MvvmLight;
+using GalaSoft.MvvmLight.Command;
+using GalaSoft.MvvmLight.Messaging;
+using System.ComponentModel;
 using System.Windows;
 
-namespace WpfAppMNNMDemo
+namespace WpfAppMvvmLightDemo
 {
-    //public class ViewModel:INotifyPropertyChanged
     public class MainViewModel : ViewModelBase
     {
         public MainViewModel()
         {
-            MyCommand = new MyCommand(Show);
             Name = "Hello World";
+            ShowCommand = new RelayCommand<string>(Show);
         }
-        public MyCommand MyCommand { get; set; }
+        public RelayCommand<string> ShowCommand { get;}
         private string name;
         public string Name
         {
@@ -19,9 +21,7 @@ namespace WpfAppMNNMDemo
             set
             {
                 name = value;
-                //PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("Name"));
-                //OnPropertyChanged("Name");
-                OnPropertyChanged();
+                RaisePropertyChanged();
             }
         }
         private string title;
@@ -31,17 +31,16 @@ namespace WpfAppMNNMDemo
             set
             {
                 title = value;
-                OnPropertyChanged();
+                RaisePropertyChanged();
             }
         }
 
-        //public event PropertyChangedEventHandler PropertyChanged;
-
-        public void Show()
+        public void Show(string text)
         {
             Name = "this is viewModel!";
             Title = "I am title";
-            MessageBox.Show(Name);
+            //MessageBox.Show(text);
+            Messenger.Default.Send(text, "ReciveMessageAddress");
         }
     }
 }
