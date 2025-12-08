@@ -1,8 +1,8 @@
-﻿<Application x:Class="WpfAppDemo.App"
+﻿<Application x:Class="WpfAppAnimationDemo.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:WpfAppDemo"
-             StartupUri="DataTemplateDemo.xaml">
+             xmlns:local="clr-namespace:WpfAppAnimationDemo"
+             StartupUri="MainWindow.xaml">
     <Application.Resources>
          
     </Application.Resources>

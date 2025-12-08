@@ -18,9 +18,9 @@
     </Window.Resources>
     <Grid>
         <StackPanel>
-            <Button Content="hello1" Style="{StaticResource ButtonStyle}"/>
-            <Button Content="hello2" Style="{StaticResource ButtonStyle}"/>
-            <Button Content="hello3" Style="{StaticResource ButtonStyle}"/>
+            <Button Content="helloWorld1" Style="{StaticResource ButtonStyle}"/>
+            <Button Content="helloWorld2" Style="{StaticResource ButtonStyle}"/>
+            <Button Content="helloWorld3" Style="{StaticResource ButtonStyle}"/>
         </StackPanel>
     </Grid>
 </Window>

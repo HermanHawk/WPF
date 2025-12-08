@@ -21,8 +21,8 @@
 <Border Grid.Row="1" Grid.Column="1" Background="Green"/>-->
 
         <!--<StackPanel></StackPanel>  //里面的button 不会自动另起一行排列当排不下时
-<WrapPanel></WrapPanel>   //里面的button当排不下时会自动另起一行排列-->
-        <!--<DockPanel></DockPanel>  //可以设置停靠方向-->
+<WrapPanel></WrapPanel>   //里面的button当排不下时会自动另起一行排列
+        <DockPanel></DockPanel>  //可以设置停靠方向-->
         <!--<UniformGrid Columns="3" Rows="3">
     <Button/>
     <Button/>

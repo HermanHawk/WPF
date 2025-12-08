@@ -9,10 +9,10 @@ namespace WpfAppDemo
 {
     public class BindingDemoMyCommand : ICommand
     {
-        Action executeAction;
+        Action ActionDemo;
         public BindingDemoMyCommand(Action action)
         {
-            executeAction = action;
+            ActionDemo = action;
         }
 
         public event EventHandler CanExecuteChanged;
@@ -24,7 +24,7 @@ namespace WpfAppDemo
 
         public void Execute(object parameter)
         {
-            executeAction();
+            ActionDemo();
         }
     }
 }

@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfAppAnimationDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppAnimationDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <!--1.线性动画
+        线性动画（From/To/By）
+            DoubleAnimation - 用于双精度值的动画
+            ColorAnimation - 用于颜色的动画
+            PointAnimation - 用于点的动画
+            ThicknessAnimation - 用于边距、边框等的动画
+        2.关键帧动画
+            DoubleAnimationUsingKeyFrames
+            ColorAnimationUsingKeyFrames
+            PointAnimationUsingKeyFrames
+            ObjectAnimationUsingKeyFrames（离散值）
+        3.路径动画
+            DoubleAnimationUsingPath - 沿路径移动并改变双精度值
+            PointAnimationUsingPath - 沿路径移动点
+            MatrixAnimationUsingPath - 沿路径移动并应用矩阵变换-->
+    </Grid>
+</Window>
