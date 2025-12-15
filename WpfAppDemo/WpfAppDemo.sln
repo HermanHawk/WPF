@@ -15,6 +15,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppResource", "WpfAppRes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppAnimationDemo", "WpfAppAnimationDemo\WpfAppAnimationDemo.csproj", "{39BEEA29-6120-4B73-A758-FA914ACCCA5D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfAppPrismDemo", "WpfAppPrismDemo\WpfAppPrismDemo.csproj", "{D3494148-CAF1-4FE8-B78C-B400198FD4C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfLibrary1", "WpfLibrary1\WpfLibrary1.csproj", "{3115D9BA-6576-4B57-81A5-2A45757736E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfLibrary2", "WpfLibrary2\WpfLibrary2.csproj", "{F8A65BAC-0FEC-4DB5-BFAA-FB5158D1A0A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfLibrary3", "WpfLibrary3\WpfLibrary3.csproj", "{4A5F47DA-6AC5-46C4-AAA6-B659C3F3E4EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppPrismDialogsDemo", "WpfAppPrismDialogsDemo\WpfAppPrismDialogsDemo.csproj", "{39F4F049-0092-4375-AEB8-B9A37E4A52A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfLibrary5", "WpfLibrary5\WpfLibrary5.csproj", "{DB95E860-EB59-4669-B958-9676A6059FE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +57,30 @@ Global
 		{39BEEA29-6120-4B73-A758-FA914ACCCA5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39BEEA29-6120-4B73-A758-FA914ACCCA5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39BEEA29-6120-4B73-A758-FA914ACCCA5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3494148-CAF1-4FE8-B78C-B400198FD4C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3494148-CAF1-4FE8-B78C-B400198FD4C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3494148-CAF1-4FE8-B78C-B400198FD4C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3494148-CAF1-4FE8-B78C-B400198FD4C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3115D9BA-6576-4B57-81A5-2A45757736E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3115D9BA-6576-4B57-81A5-2A45757736E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3115D9BA-6576-4B57-81A5-2A45757736E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3115D9BA-6576-4B57-81A5-2A45757736E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8A65BAC-0FEC-4DB5-BFAA-FB5158D1A0A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8A65BAC-0FEC-4DB5-BFAA-FB5158D1A0A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8A65BAC-0FEC-4DB5-BFAA-FB5158D1A0A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8A65BAC-0FEC-4DB5-BFAA-FB5158D1A0A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A5F47DA-6AC5-46C4-AAA6-B659C3F3E4EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A5F47DA-6AC5-46C4-AAA6-B659C3F3E4EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A5F47DA-6AC5-46C4-AAA6-B659C3F3E4EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A5F47DA-6AC5-46C4-AAA6-B659C3F3E4EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39F4F049-0092-4375-AEB8-B9A37E4A52A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39F4F049-0092-4375-AEB8-B9A37E4A52A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39F4F049-0092-4375-AEB8-B9A37E4A52A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39F4F049-0092-4375-AEB8-B9A37E4A52A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB95E860-EB59-4669-B958-9676A6059FE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB95E860-EB59-4669-B958-9676A6059FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB95E860-EB59-4669-B958-9676A6059FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB95E860-EB59-4669-B958-9676A6059FE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Prism.DryIoc" Version="9.0.537" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WpfLibrary1\WpfLibrary1.csproj" />
+    <ProjectReference Include="..\WpfLibrary2\WpfLibrary2.csproj" />
+    <ProjectReference Include="..\WpfLibrary3\WpfLibrary3.csproj" />
+  </ItemGroup>
+
+</Project>
