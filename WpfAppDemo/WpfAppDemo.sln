@@ -23,9 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfLibrary2", "WpfLibrary2\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfLibrary3", "WpfLibrary3\WpfLibrary3.csproj", "{4A5F47DA-6AC5-46C4-AAA6-B659C3F3E4EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppPrismDialogsDemo", "WpfAppPrismDialogsDemo\WpfAppPrismDialogsDemo.csproj", "{39F4F049-0092-4375-AEB8-B9A37E4A52A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfAppPrismDialogsDemo", "WpfAppPrismDialogsDemo\WpfAppPrismDialogsDemo.csproj", "{39F4F049-0092-4375-AEB8-B9A37E4A52A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfLibrary5", "WpfLibrary5\WpfLibrary5.csproj", "{DB95E860-EB59-4669-B958-9676A6059FE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfLibrary5", "WpfLibrary5\WpfLibrary5.csproj", "{DB95E860-EB59-4669-B958-9676A6059FE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationApiDemo", "WebApplicationApiDemo\WebApplicationApiDemo.csproj", "{90AFB79B-1135-46F4-A51A-F7302C92160A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{DB95E860-EB59-4669-B958-9676A6059FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB95E860-EB59-4669-B958-9676A6059FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB95E860-EB59-4669-B958-9676A6059FE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90AFB79B-1135-46F4-A51A-F7302C92160A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90AFB79B-1135-46F4-A51A-F7302C92160A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90AFB79B-1135-46F4-A51A-F7302C92160A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90AFB79B-1135-46F4-A51A-F7302C92160A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
